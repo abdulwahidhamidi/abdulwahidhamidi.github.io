@@ -612,3 +612,9 @@ color:var(--primary);
     display:inline-block;
     flex-shrink:0;
 }
+
+.download-cv{
+
+margin-top:25px;
+
+}
