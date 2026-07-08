@@ -438,11 +438,15 @@ background:#d9e3ef;
 
 .timeline-item{
 
-display:flex;
+display:grid;
 
-gap:35px;
+grid-template-columns:220px 1fr;
 
-margin-bottom:60px;
+gap:40px;
+
+margin-bottom:70px;
+
+align-items:flex-start;
 
 position:relative;
 
@@ -593,4 +597,22 @@ margin-top:12px;
 
 color:var(--primary);
 
+}
+
+.timeline-date{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    font-size:18px;
+    font-weight:700;
+    color:#0B3C5D;
+}
+
+.dot{
+    width:14px;
+    height:14px;
+    background:#0B3C5D;
+    border-radius:50%;
+    display:inline-block;
+    flex-shrink:0;
 }
