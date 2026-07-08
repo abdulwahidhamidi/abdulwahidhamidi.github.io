@@ -442,13 +442,9 @@ display:grid;
 
 grid-template-columns:220px 1fr;
 
-gap:40px;
-
-margin-bottom:70px;
+column-gap:40px;
 
 align-items:flex-start;
-
-position:relative;
 
 }
 
@@ -482,8 +478,8 @@ box-shadow:0 10px 25px rgba(29,112,162,.3);
 
 background:white;
 
-padding:35px;
-
+padding:28px 35px;
+   
 border-radius:20px;
 
 box-shadow:var(--shadow);
