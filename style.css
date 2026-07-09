@@ -938,11 +938,13 @@ background:linear-gradient(135deg,#0B3C5D,#1D70A2);
 
 text-align:center;
 
-font-size:40px;
+font-size:48px;
 
-margin-bottom:60px;
+color:#ffffff;
 
-color:var(--primary);
+margin-bottom:70px;
+
+font-weight:700;
 
 }
 
@@ -960,21 +962,19 @@ flex-wrap:wrap;
 
 .hero-card{
 
-width:320px;
+background:rgba(255,255,255,.10);
 
-background:rgba(255,255,255,.08);
+backdrop-filter:blur(15px);
 
 border:1px solid rgba(255,255,255,.15);
 
-backdrop-filter:blur(10px);
-   
-padding:35px;
+border-radius:25px;
 
-border-radius:20px;
-
-box-shadow:0 15px 35px rgba(0,0,0,.08);
+padding:45px;
 
 transition:.35s;
+
+box-shadow:0 15px 35px rgba(0,0,0,.18);
 
 }
 
@@ -982,31 +982,41 @@ transition:.35s;
 
 transform:translateY(-10px);
 
+background:rgba(255,255,255,.15);
+
+border-color:#FFC247;
+
 }
 
 .hero-card i{
 
-font-size:40px;
+font-size:46px;
 
-color:#f5b335;
+color:#FFC247;
 
-margin-bottom:20px;
+margin-bottom:25px;
 
 }
 
 .hero-card h4{
 
-margin-bottom:15px;
+color:#ffffff;
 
-color:var(--primary);
+font-size:30px;
+
+margin-bottom:20px;
+
+font-weight:700;
 
 }
 
 .hero-card p{
 
-color:#dbe7f3;
-   
-line-height:1.7;
+color:rgba(255,255,255,.85);
+
+line-height:1.8;
+
+font-size:18px;
 
 }
 
