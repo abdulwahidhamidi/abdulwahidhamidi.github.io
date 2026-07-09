@@ -816,3 +816,85 @@ margin-bottom:60px;
 color:var(--primary);
 
 }
+
+/* ===== KOMPETENZEN ===== */
+
+.kompetenzen{
+
+padding:100px 0;
+
+background:#f7f9fc;
+
+}
+
+.kompetenzen h2{
+
+text-align:center;
+
+font-size:40px;
+
+margin-bottom:60px;
+
+color:var(--primary);
+
+}
+
+.hero-cards{
+
+display:flex;
+
+justify-content:center;
+
+gap:35px;
+
+flex-wrap:wrap;
+
+}
+
+.hero-card{
+
+width:320px;
+
+background:white;
+
+padding:35px;
+
+border-radius:20px;
+
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+transition:.35s;
+
+}
+
+.hero-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.hero-card i{
+
+font-size:40px;
+
+color:#f5b335;
+
+margin-bottom:20px;
+
+}
+
+.hero-card h4{
+
+margin-bottom:15px;
+
+color:var(--primary);
+
+}
+
+.hero-card p{
+
+color:#666;
+
+line-height:1.7;
+
+}
