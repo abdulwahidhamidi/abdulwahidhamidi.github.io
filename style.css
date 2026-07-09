@@ -453,14 +453,13 @@ color:var(--gray);
 
 }
 
-
 /*================ ABOUT =================*/
 
 .about{
 
 padding:120px 0;
 
-background:linear-gradient(180deg,#EEF4F9,#F8FBFD);
+background:#EEF4F9;
 
 }
 
@@ -468,57 +467,35 @@ background:linear-gradient(180deg,#EEF4F9,#F8FBFD);
 
 display:grid;
 
-grid-template-columns:1.3fr .7fr;
+grid-template-columns:2fr 1fr;
 
-gap:70px;
+gap:60px;
 
-align-items:center;
-
-}
-
-.section-tag{
-
-display:inline-block;
-
-padding:8px 18px;
-
-background:#dcecf8;
-
-color:#1D70A2;
-
-border-radius:30px;
-
-font-size:14px;
-
-font-weight:600;
-
-letter-spacing:2px;
-
-margin-bottom:20px;
+align-items:start;
 
 }
 
-.about-left h2{
+.about-text h2{
 
-font-size:46px;
-
-line-height:1.2;
+font-size:48px;
 
 color:#0B3C5D;
 
-margin-bottom:35px;
+margin:20px 0 35px;
+
+line-height:1.2;
 
 }
 
-.about-left p{
+.about-text p{
 
 font-size:18px;
 
 line-height:1.9;
 
-color:#4f5b66;
+color:#4F5B66;
 
-margin-bottom:22px;
+margin-bottom:25px;
 
 }
 
@@ -526,9 +503,9 @@ margin-bottom:22px;
 
 display:flex;
 
-flex-wrap:wrap;
-
 gap:15px;
+
+flex-wrap:wrap;
 
 margin-top:35px;
 
@@ -536,13 +513,13 @@ margin-top:35px;
 
 .about-tags span{
 
-padding:10px 20px;
-
 background:#1D70A2;
 
 color:white;
 
-border-radius:30px;
+padding:12px 22px;
+
+border-radius:40px;
 
 font-size:15px;
 
@@ -556,7 +533,7 @@ background:white;
 
 padding:40px;
 
-border-radius:30px;
+border-radius:28px;
 
 box-shadow:0 20px 50px rgba(0,0,0,.08);
 
@@ -566,7 +543,7 @@ border-top:6px solid #1D70A2;
 
 .about-card h3{
 
-font-size:28px;
+font-size:30px;
 
 color:#0B3C5D;
 
@@ -574,11 +551,9 @@ margin-bottom:35px;
 
 }
 
-.info-item{
+.profile-item{
 
 display:flex;
-
-align-items:flex-start;
 
 gap:18px;
 
@@ -586,9 +561,11 @@ margin-bottom:28px;
 
 }
 
-.info-item i{
+.profile-item i{
 
 font-size:24px;
+
+width:28px;
 
 color:#1D70A2;
 
@@ -596,25 +573,25 @@ margin-top:4px;
 
 }
 
-.info-item strong{
+.profile-item h4{
 
-display:block;
-
-font-size:17px;
+font-size:18px;
 
 color:#0B3C5D;
 
-margin-bottom:5px;
+margin-bottom:6px;
 
 }
 
-.info-item p{
+.profile-item p{
 
-margin:0;
-
-color:#5d6c7a;
+font-size:16px;
 
 line-height:1.6;
+
+color:#5E6B78;
+
+margin:0;
 
 }
 
@@ -624,15 +601,15 @@ margin-top:35px;
 
 padding:18px;
 
-background:#eef8f2;
+background:#E8F8EC;
 
-color:#198754;
+border-radius:16px;
 
-border-radius:15px;
+text-align:center;
 
 font-weight:600;
 
-text-align:center;
+color:#198754;
 
 }
 
