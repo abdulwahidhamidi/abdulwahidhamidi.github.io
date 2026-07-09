@@ -147,13 +147,13 @@ color:white;
 
 .hero-content{
 
-display:flex;
+display:grid;
 
-justify-content:space-between;
+grid-template-columns:1.2fr .8fr;
 
 align-items:center;
 
-gap:60px;
+gap:80px;
 
 }
 
