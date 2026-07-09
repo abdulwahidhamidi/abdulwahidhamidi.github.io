@@ -796,3 +796,23 @@ font-size:15px;
 line-height:1.6;
 
 }
+
+.kompetenzen{
+
+padding:90px 0;
+
+background:#f8fbfe;
+
+}
+
+.kompetenzen h2{
+
+text-align:center;
+
+font-size:38px;
+
+margin-bottom:60px;
+
+color:var(--primary);
+
+}
