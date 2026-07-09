@@ -823,7 +823,7 @@ color:var(--primary);
 
 padding:100px 0;
 
-background:#f7f9fc;
+background:linear-gradient(135deg,#0B3C5D,#1D70A2);
 
 }
 
