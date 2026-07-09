@@ -779,87 +779,125 @@ In Deutschland anerkannt.
 
 </section>
   
-<section id="certificates" class="certificates">
+<section class="certificates" id="certificates">
 
 <div class="container">
 
-<div class="section-title">
-
-<span>CERTIFICATES</span>
+<span class="section-tag">CERTIFICATES</span>
 
 <h2>Zertifikate</h2>
 
-</div>
-
 <div class="certificate-grid">
 
-<div class="certificate-card">
+<!-- Autodesk -->
 
-<i class="fa-solid fa-award"></i>
+<div class="certificate-card" onclick="openCertificate('images/certificates/autodesk-revit.jpg')">
+
+<img src="images/certificates/autodesk-revit.jpg">
+
+<h3>Autodesk Revit</h3>
+
+<p>Autodesk Official Certificate</p>
+
+<span>Zertifikat ansehen →</span>
+
+</div>
+
+<!-- BIM Spezialist -->
+
+<div class="certificate-card" onclick="openCertificate('images/certificates/bim-spezialist.jpg')">
+
+<img src="images/certificates/bim-spezialist.jpg">
 
 <h3>BIM Spezialist</h3>
 
 <p>alfatraining Berlin</p>
 
+<span>Zertifikat ansehen →</span>
+
 </div>
 
-<div class="certificate-card">
+<!-- buildingSMART -->
 
-<i class="fa-solid fa-certificate"></i>
+<div class="certificate-card" onclick="openCertificate('images/certificates/buildingsmart.jpg')">
+
+<img src="images/certificates/buildingsmart.jpg">
 
 <h3>buildingSMART Foundation</h3>
 
 <p>International BIM Certification</p>
 
+<span>Zertifikat ansehen →</span>
+
 </div>
 
-<div class="certificate-card">
+<!-- BIM Manager -->
 
-<i class="fa-solid fa-cube"></i>
+<div class="certificate-card" onclick="openCertificate('images/certificates/bim-manager.jpg')">
+
+<img src="images/certificates/bim-manager.jpg">
 
 <h3>BIM Manager</h3>
 
 <p>Weiterbildung</p>
 
+<span>Zertifikat ansehen →</span>
+
 </div>
 
-<div class="certificate-card">
+<!-- BIM Koordinator -->
 
-<i class="fa-solid fa-drafting-compass"></i>
+<div class="certificate-card" onclick="openCertificate('images/certificates/bim-koordinator.jpg')">
+
+<img src="images/certificates/bim-koordinator.jpg">
 
 <h3>BIM Koordinator</h3>
 
 <p>Weiterbildung</p>
 
-</div>
-  
-<div class="certificate-card">
+<span>Zertifikat ansehen →</span>
 
-<i class="fa-solid fa-drafting-compass"></i>
+</div>
+
+<!-- BIM Modeler -->
+
+<div class="certificate-card" onclick="openCertificate('images/certificates/bim-modeler.jpg')">
+
+<img src="images/certificates/bim-modeler.jpg">
 
 <h3>BIM Modeler</h3>
 
-<p>Weiterbildung</p>
+<p>alfatraining Berlin</p>
+
+<span>Zertifikat ansehen →</span>
 
 </div>
 
-<div class="certificate-card">
+<!-- AVA -->
 
-<i class="fa-solid fa-building"></i>
+<div class="certificate-card" onclick="openCertificate('images/certificates/ava-hoai.jpg')">
+
+<img src="images/certificates/ava-hoai.jpg">
 
 <h3>AVA & HOAI</h3>
 
 <p>ORCA AVA · BKI</p>
 
+<span>Zertifikat ansehen →</span>
+
 </div>
 
-<div class="certificate-card">
+<!-- ETABS -->
 
-<i class="fa-solid fa-city"></i>
+<div class="certificate-card" onclick="openCertificate('images/certificates/etabs.jpg')">
+
+<img src="images/certificates/etabs.jpg">
 
 <h3>CSI ETABS</h3>
 
 <p>Structural Analysis</p>
+
+<span>Zertifikat ansehen →</span>
 
 </div>
 
@@ -868,6 +906,17 @@ In Deutschland anerkannt.
 </div>
 
 </section>
+
+<!-- Modal -->
+
+<div class="certificate-modal" id="certificateModal">
+
+<span class="close-modal" onclick="closeCertificate()">&times;</span>
+
+<img id="certificateImage">
+
+</div>
+
 <section id="contact" class="contact">
 
 <div class="container">
