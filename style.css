@@ -803,21 +803,37 @@ color:var(--primary);
 }
 
 .timeline-date{
-    display:flex;
-    align-items:center;
-    gap:12px;
-    font-size:18px;
-    font-weight:700;
-    color:#0B3C5D;
+
+position:relative;
+
+padding-left:35px;
+
+font-size:18px;
+
+font-weight:700;
+
+color:var(--primary);
+
 }
 
 .dot{
-    width:14px;
-    height:14px;
-    background:#0B3C5D;
-    border-radius:50%;
-    display:inline-block;
-    flex-shrink:0;
+
+position:absolute;
+
+left:0;
+
+top:50%;
+
+transform:translateY(-50%);
+
+width:18px;
+
+height:18px;
+
+background:var(--primary);
+
+border-radius:50%;
+
 }
 
 .download-cv{
