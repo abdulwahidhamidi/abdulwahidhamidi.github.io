@@ -159,7 +159,7 @@ gap:80px;
 
 .hero-left{
 
-flex:1;
+max-width:700px;
 
 }
 
@@ -188,6 +188,10 @@ font-size:62px;
 font-weight:700;
 
 margin-bottom:20px;
+
+line-height:1.05;
+
+white-space:nowrap;
 
 }
 
