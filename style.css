@@ -1090,3 +1090,21 @@ object-fit:cover;
 border:6px solid #0f5b8d;
 
 }
+
+.logo img{
+
+height:55px;
+
+width:auto;
+
+display:block;
+
+transition:.3s;
+
+}
+
+.logo img:hover{
+
+transform:scale(1.05);
+
+}
