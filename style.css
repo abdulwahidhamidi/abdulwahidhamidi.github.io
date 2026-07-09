@@ -113,7 +113,7 @@ text-decoration:none;
 
 .logo img{
 
-height:90px;
+height:75px;
 
 width:auto;
 
@@ -1109,4 +1109,14 @@ object-fit:cover;
 
 border:6px solid #0f5b8d;
 
+}
+
+.logo{
+    height:90px;
+    background:red;
+}
+
+.logo img{
+    height:90px !important;
+    width:auto !important;
 }
