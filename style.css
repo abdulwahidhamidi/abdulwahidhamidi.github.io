@@ -855,8 +855,12 @@ flex-wrap:wrap;
 
 width:320px;
 
-background:white;
+background:rgba(255,255,255,.08);
 
+border:1px solid rgba(255,255,255,.15);
+
+backdrop-filter:blur(10px);
+   
 padding:35px;
 
 border-radius:20px;
@@ -893,8 +897,8 @@ color:var(--primary);
 
 .hero-card p{
 
-color:#666;
-
+color:#dbe7f3;
+   
 line-height:1.7;
 
 }
