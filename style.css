@@ -95,11 +95,31 @@ height:80px;
 
 .logo{
 
-font-size:30px;
+display:flex;
 
-font-weight:700;
+align-items:center;
 
-color:var(--primary);
+}
+
+.logo a{
+
+display:flex;
+
+align-items:center;
+
+text-decoration:none;
+
+}
+
+.logo img{
+
+height:55px;
+
+width:auto;
+
+display:block;
+
+object-fit:contain;
 
 }
 
