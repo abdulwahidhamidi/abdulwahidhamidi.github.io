@@ -456,23 +456,25 @@ color:var(--gray);
 /*================ ABOUT =================*/
 
 .about{
-
+    position:relative;
+    overflow:hidden;
     background:#F8FAFC;
+}
 
-    padding:100px 0;
-
+.about::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background-image:url("images/patterns/engineering-pattern.png");
+    background-repeat:repeat;
+    background-size:700px;
+    opacity:.08;
+    pointer-events:none;
 }
 
 .about-content{
-
-    display:grid;
-
-    grid-template-columns:2fr 1fr;
-
-    gap:60px;
-
-    align-items:start;
-
+    position:relative;
+    z-index:1;
 }
 
 .about-text{
