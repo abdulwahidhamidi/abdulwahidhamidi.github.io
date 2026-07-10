@@ -613,6 +613,52 @@ color:#198754;
 
 }
 
+/*================ ABOUT =================*/
+
+#about{
+
+position:relative;
+
+background:#F8FAFC;
+
+overflow:hidden;
+
+}
+
+#about::before{
+
+content:"";
+
+position:absolute;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+height:100%;
+
+background:url("images/patterns/blueprint-pattern.png");
+
+background-size:700px;
+
+background-repeat:repeat;
+
+opacity:.04;
+
+pointer-events:none;
+
+}
+
+#about .container{
+
+position:relative;
+
+z-index:2;
+
+}
+
 /*=========================
 TIMELINE
 ==========================*/
