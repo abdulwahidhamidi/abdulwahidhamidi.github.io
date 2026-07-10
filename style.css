@@ -456,14 +456,9 @@ color:var(--gray);
 /*================ ABOUT =================*/
 
 .about{
-
-padding:120px 0;
-
-background:red !important;
-}
-
-.about{
-    background:red !important;
+    position: relative;
+    overflow: hidden;
+    background:#F8FAFC;
 }
 
 .about-content{
