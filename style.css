@@ -459,8 +459,7 @@ color:var(--gray);
 
 padding:120px 0;
 
-background:#EEF4F9;
-
+background:red !important;
 }
 
 .about{
