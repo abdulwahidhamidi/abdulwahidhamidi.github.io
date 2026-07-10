@@ -463,6 +463,10 @@ background:#EEF4F9;
 
 }
 
+.about{
+    background:red !important;
+}
+
 .about-content{
 
 display:grid;
