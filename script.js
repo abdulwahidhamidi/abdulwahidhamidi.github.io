@@ -171,3 +171,8 @@ certificateModal.onclick = function(e){
     }
 
 }
+
+certificateImage.addEventListener("contextmenu", function(e) {
+    e.preventDefault();
+});
+certificateImage.setAttribute("draggable", "false");
