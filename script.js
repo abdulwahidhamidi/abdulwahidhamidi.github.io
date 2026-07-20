@@ -71,6 +71,16 @@ window.addEventListener("scroll", () => {
    Scroll Animation
 =========================================== */
 
+.reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s ease;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
 
 
 /* ===========================================
