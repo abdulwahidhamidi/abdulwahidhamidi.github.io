@@ -1,26 +1,59 @@
-console.log("Portfolio Loaded");
-function openCertificate(image){
+/* ===========================================
+   Abdul Wahid Hamidi Portfolio
+   JavaScript
+=========================================== */
 
-document.getElementById("certificateModal").style.display="flex";
 
-document.getElementById("certificateImage").src=image;
+/* ===========================================
+   Smooth Scroll
+=========================================== */
 
-}
+document.querySelectorAll('nav a').forEach(anchor => {
 
-function closeCertificate(){
+    anchor.addEventListener('click', function(e){
 
-document.getElementById("certificateModal").style.display="none";
+        const target = document.querySelector(this.getAttribute('href'));
 
-}
+        if(target){
 
-window.onclick=function(e){
+            e.preventDefault();
 
-const modal=document.getElementById("certificateModal");
+            target.scrollIntoView({
 
-if(e.target===modal){
+                behavior:'smooth'
 
-closeCertificate();
+            });
 
-}
+        }
 
-}
+    });
+
+});
+
+/* ===========================================
+   Active Navigation
+=========================================== */
+
+
+
+/* ===========================================
+   Scroll Animation
+=========================================== */
+
+
+
+/* ===========================================
+   Project Gallery
+=========================================== */
+
+
+
+/* ===========================================
+   Certificate Viewer
+=========================================== */
+
+
+
+/* ===========================================
+   Back To Top
+=========================================== */
