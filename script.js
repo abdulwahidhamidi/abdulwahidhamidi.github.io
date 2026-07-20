@@ -140,3 +140,34 @@ backToTop.addEventListener("click", () => {
     });
 
 });
+
+/* ===========================================
+   Certificate Viewer
+=========================================== */
+
+const certificateModal = document.getElementById("certificateModal");
+const certificateImage = document.getElementById("certificateImage");
+const closeModal = document.querySelector(".close-modal");
+
+function openCertificate(imageSrc){
+
+    certificateImage.src = imageSrc;
+    certificateModal.style.display = "flex";
+
+}
+
+closeModal.onclick = function(){
+
+    certificateModal.style.display = "none";
+
+}
+
+certificateModal.onclick = function(e){
+
+    if(e.target === certificateModal){
+
+        certificateModal.style.display = "none";
+
+    }
+
+}
