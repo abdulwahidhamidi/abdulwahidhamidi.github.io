@@ -1841,3 +1841,9 @@ cursor:pointer;
     cursor:pointer;
     user-select:none;
 }
+
+#certificateImage{
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+}
