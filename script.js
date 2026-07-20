@@ -66,21 +66,33 @@ window.addEventListener("scroll", () => {
 
 });
 
-
 /* ===========================================
-   Scroll Animation
+   Scroll Reveal Animation
 =========================================== */
 
-.reveal {
-    opacity: 0;
-    transform: translateY(40px);
-    transition: all 0.8s ease;
+const reveals = document.querySelectorAll(".reveal");
+
+function revealSections() {
+
+    const windowHeight = window.innerHeight;
+
+    reveals.forEach(section => {
+
+        const sectionTop = section.getBoundingClientRect().top;
+
+        if(sectionTop < windowHeight - 100){
+
+            section.classList.add("active");
+
+        }
+
+    });
+
 }
 
-.reveal.active {
-    opacity: 1;
-    transform: translateY(0);
-}
+window.addEventListener("scroll", revealSections);
+
+revealSections();
 
 
 /* ===========================================
