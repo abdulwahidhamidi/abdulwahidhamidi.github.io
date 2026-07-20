@@ -154,6 +154,14 @@ color:var(--secondary);
 
 }
 
+nav a.active{
+    color:#0d6efd;
+}
+
+nav a.active::after{
+    width:100%;
+}
+
 /* ================= HERO ================= */
 
 .hero{
