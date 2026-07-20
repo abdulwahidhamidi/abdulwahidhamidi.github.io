@@ -104,7 +104,9 @@ revealSections();
 /* ===========================================
    Certificate Viewer
 =========================================== */
-
+function openCertificate(imageSrc) {
+    window.open(imageSrc, "_blank");
+}
 
 
 /* ===========================================
